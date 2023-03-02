@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
+    "chromium": "^3.0.3",
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
-    "q": "^1.5.1",
-    "puppeteer": "^19.6.3"
+    "puppeteer": "^19.7.2",
+    "q": "^1.5.1"
   }
 }
