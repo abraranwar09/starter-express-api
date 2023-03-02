@@ -7,7 +7,7 @@ let products = [];
 
 async function scrapeProducts(url) {
     products = [];
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({headless: true});
     const page = await browser.newPage();
     await page.goto(url, {waitUntil: 'load', timeout: 0});
 
